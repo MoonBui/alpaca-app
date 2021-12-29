@@ -99,5 +99,50 @@ export const ATTR_MAP = {
         values: Object.values(NECK_MAP)
     },
 
+    [ATTR_KEY_MAP.mouth]: {
+        key: "mouth",
+        text: "mouth",
+        values: Object.values(MOUTH_MAP)
+    },
 
+    [ATTR_KEY_MAP.leg]: {
+        key: "leg",
+        text: "leg",
+        values: Object.values(LEG_MAP)
+    },
+
+    [ATTR_KEY_MAP.ears]: {
+        key: "ears",
+        text: "ears",
+        values: Object.values(EARS_MAP)
+    },
+
+    [ATTR_KEY_MAP.hair]: {
+        key: "hair",
+        text: "hair",
+        value: Object.values(HAIR_MAP)
+    },
+
+    [ATTR_KEY_MAP.eyes]: {
+        key: "eyes",
+        text: "eyes",
+        value: Object.values(EYES_MAP)
+    },
+
+    [ATTR_KEY_MAP.accessories]: {
+        key: "accessories",
+        text: "accessories",
+        value: Object.value(ACC_MAP)
+    }
 };
+
+export const ATTRIBUTES = [
+    ATTR_KEY_MAP.background,
+    ATTR_KEY_MAP.neck,
+    ATTR_KEY_MAP.mouth,
+    ATTR_KEY_MAP.leg,
+    ATTR_KEY_MAP.ears,
+    ATTR_KEY_MAP.hair,
+    ATTR_KEY_MAP.eyes,
+    ATTR_KEY_MAP.accessories
+]
